@@ -5,6 +5,16 @@
 #include <iostream>
 using namespace std;
 
+int factorial (int num) {
+    int factRes, i;
+
+    factRes = 1;
+    for (i = 1; i <= num; i++)
+        factRes *= i;
+
+    return factRes;
+}
+
 int main() {
     int n, k, k_combinations;
     int nFact, kFact, n_kFact; // nFact = n factorial, n_kFact = n minus k factorial
@@ -38,14 +48,4 @@ int main() {
     cout << n << " choose " << k << " is " << k_combinations << endl;
 
     return 0;
-}
-
-int factorial (int num) {
-    int factRes, i;
-
-    factRes = 1;
-    for (i = 1; i <= num; i++)
-        factRes *= i;
-
-    return factRes;
 }
