@@ -1,5 +1,8 @@
 .DS_Store
-.vscode/
+<<<<<<< HEAD
+=======
+settings.json
+>>>>>>> arrays
 *.dSYM
 *.docx
 *.pdf
@@ -17,3 +20,7 @@ primalitytesting2
 primalitytesting3
 runtimeanalysis1
 runtimeanalysis2
+computingaverage2
+maxinlst
+maxabsinlst
+avgoflst
