@@ -1,8 +1,5 @@
 .DS_Store
-<<<<<<< HEAD
-=======
 settings.json
->>>>>>> arrays
 *.dSYM
 *.docx
 *.pdf
